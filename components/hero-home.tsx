@@ -21,10 +21,9 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                Your Eyes Make Roads Safe - Report Violations, Save Lives.
               </p>
-              <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
+              {/* <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
                   <a
                     className="btn group mb-4 w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
@@ -46,7 +45,7 @@ export default function HeroHome() {
                     Schedule Demo
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -55,7 +54,7 @@ export default function HeroHome() {
             thumbWidth={1104}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
-            video="videos//video.mp4"
+            video="videos/Demo.mp4"
             videoWidth={1920}
             videoHeight={1080}
           />
