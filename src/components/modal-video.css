@@ -1,0 +1,117 @@
+.modal-video {
+  position: relative;
+}
+
+.modal-video-illustration {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  z-index: -10;
+  transform: translateX(-50%) translateY(50%);
+  pointer-events: none;
+}
+
+.modal-video-illustration-img {
+  max-width: none;
+}
+
+.modal-video-thumb-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 16px;
+  overflow: hidden;
+  outline: none;
+}
+
+.modal-video-thumb-figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  margin: 0;
+}
+
+.modal-video-thumb-img {
+  opacity: 0.5;
+  filter: grayscale(1);
+  display: block;
+}
+
+.modal-video-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #18181b;
+  border-radius: 50%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-video-play-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-video-play-label {
+  color: #e0e7ff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.modal-video-play-duration {
+  color: #64748b;
+  margin-left: 4px;
+}
+
+.modal-video-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(0,0,0,0.7);
+}
+
+.modal-video-dialog-wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.modal-video-dialog-inner {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-video-panel {
+  background: #000;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-video-panel video {
+  width: 100%;
+  height: auto;
+  display: block;
+} 
