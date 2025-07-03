@@ -1,5 +1,5 @@
 import "./hero-home.css";
-const VideoThumb = "/images/hero-image-01.jpg";
+const VideoThumb = "images/hero-image-01.jpg";
 import ModalVideo from "./modal-video";
 
 export default function HeroHome() {

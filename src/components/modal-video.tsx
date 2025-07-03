@@ -30,11 +30,12 @@ export default function ModalVideo({
     <div className="modal-video">
       <div className="modal-video-illustration" aria-hidden="true">
         <img
-          className="modal-video-illustration-img"
-          src="/images/secondary-illustration.svg"
-          width={1165}
-          height={1012}
-          alt="Secondary illustration"
+          aria-hidden="true"
+          className="modal-blur-img"
+          src="images/secondary-illustration.svg"
+          width={700}
+          height={700}
+          alt="Blurred shape"
         />
       </div>
       <button

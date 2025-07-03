@@ -1,7 +1,7 @@
 import "./page-illustration.css";
-const Illustration = "/images/page-illustration.svg";
-const BlurredShapeGray = "/images/blurred-shape-gray.svg";
-const BlurredShape = "/images/blurred-shape.svg";
+const Illustration = "images/page-illustration.svg";
+const BlurredShapeGray = "images/blurred-shape-gray.svg";
+const BlurredShape = "images/blurred-shape.svg";
 
 export default function PageIllustration({
   multiple = false,

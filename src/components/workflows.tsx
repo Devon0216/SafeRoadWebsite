@@ -1,15 +1,15 @@
 import "./workflows.css";
 import Spotlight from "./spotlight";
-const loginImage = "/images/iWR_login.png";
-const welcomeImage = "/images/iWR_welcome.png";
-const registerImage = "/images/iWR_registration.png";
-const homeImage = "/images/iWR_home.png";
-const historyImage = "/images/iWR_history.png";
-const informationImage = "/images/iWR_information.png";
-const dropdownImage = "/images/iWR_dropdown.png";
-const porfileImage = "/images/iWR_profile.png";
-const reportImage = "/images/iWR_report.png";
-const successImage = "/images/iWR_success.png";
+const loginImage = "images/iWR_login.png";
+const welcomeImage = "images/iWR_welcome.png";
+const registerImage = "images/iWR_registration.png";
+const homeImage = "images/iWR_home.png";
+const historyImage = "images/iWR_history.png";
+const informationImage = "images/iWR_information.png";
+const dropdownImage = "images/iWR_dropdown.png";
+const porfileImage = "images/iWR_profile.png";
+const reportImage = "images/iWR_report.png";
+const successImage = "images/iWR_success.png";
 
 export default function Workflows() {
   return (

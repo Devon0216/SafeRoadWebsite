@@ -1,6 +1,6 @@
 import "./cta.css";
 import "./hero-home.css";
-const BlurredShape = "/images/blurred-shape.svg";
+const BlurredShape = "images/blurred-shape.svg";
 
 export default function Cta() {
   return (

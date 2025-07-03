@@ -1,6 +1,6 @@
 import "./footer.css";
 import Logo from "./logo";
-const FooterIllustration = "/images/footer-illustration.svg";
+const FooterIllustration = "images/footer-illustration.svg";
 
 export default function Footer() {
   return (

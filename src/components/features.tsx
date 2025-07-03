@@ -1,6 +1,6 @@
-import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
-import BlurredShape from "@/public/images/blurred-shape.svg";
-const FeaturesImage = "/images/features.png";
+const BlurredShapeGray = "images/blurred-shape-gray.svg";
+const BlurredShape = "images/blurred-shape.svg";
+const FeaturesImage = "images/features.png";
 
 export default function Features() {
   return (
