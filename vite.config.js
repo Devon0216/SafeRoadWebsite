@@ -8,7 +8,7 @@ const isDev = process.env.NODE_ENV !== 'production'
 // For production (GitHub Pages), set base: '/SafeRoadWebsite/'.
 export default defineConfig({
   plugins: [react()],
-  base: '/SafeRoadWebsite/',
+  base: isDev ? '/' : '/SafeRoadWebsite/',
   server: {
     port: 5173,
     open: true
