@@ -18,7 +18,7 @@ function Home() {
 function App() {
   return (
     <div className="global-bg">
-      <Header />
+      {/* <Header /> */}
       <PageIllustration />
       <HeroHome />
       <Workflows />
