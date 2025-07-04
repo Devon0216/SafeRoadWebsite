@@ -9,6 +9,12 @@
   filter: blur(2px);
 }
 
+@media (max-width: 767px) {
+  .page-illustration-main {
+    display: none;
+  }
+}
+
 .page-illustration-img {
   max-width: none;
 }
@@ -25,6 +31,12 @@
   filter: blur(4px);
 }
 
+@media (max-width: 767px) {
+  .page-illustration-blur-gray {
+    display: none;
+  }
+}
+
 .page-illustration-blur {
   position: absolute;
   left: 50%;
@@ -34,4 +46,10 @@
   pointer-events: none;
   opacity: 0.18;
   filter: blur(3px);
+}
+
+@media (max-width: 767px) {
+  .page-illustration-blur {
+    display: none;
+  }
 } 

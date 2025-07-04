@@ -8,6 +8,7 @@ import PageIllustration from "./components/page-illustration";
 import HeroHome from "./components/hero-home";
 import Workflows from "./components/workflows";
 import Cta from "./components/cta";
+import Header from "./components/ui/header";
 import "./global.css";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
 function App() {
   return (
     <div className="global-bg">
+      <Header />
       <PageIllustration />
       <HeroHome />
       <Workflows />
